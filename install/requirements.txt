@@ -33,3 +33,4 @@ setuptools==69.0.3
 SQLAlchemy==2.0.25
 Werkzeug==3.0.1
 WTForms==3.1.2
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
