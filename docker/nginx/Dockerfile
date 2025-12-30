@@ -1,4 +1,4 @@
-FROM nginx:1.17.6
+FROM nginx:1.28.1
 
 RUN rm /etc/nginx/nginx.conf
 COPY docker/nginx/nginx.conf /etc/nginx/
